@@ -25,11 +25,11 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
           {/* Logo Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-card/10 backdrop-blur-sm border-2 border-primary flex items-center justify-center">
-            <span className="text-primary-foreground font-playfair text-4xl font-bold">R</span>
+          <div className="w-64 h-64 md:w-32 md:h-32 mx-auto mb-8 rounded-full bg-card/10 backdrop-blur-sm border-2 border-primary flex items-center justify-center">
+            <span className="text-primary-foreground font-playfair text-8xl md:text-4xl font-bold">R</span>
           </div>
 
-          <h1 className="text-6xl md:text-8xl font-playfair font-bold text-primary-foreground mb-6">
+          <h1 className="hidden md:block text-6xl md:text-8xl font-playfair font-bold text-primary-foreground mb-6">
             Reshuffle
           </h1>
           
